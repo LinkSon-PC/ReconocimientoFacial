@@ -10,6 +10,7 @@ Se requiere implementar un software con el apoyo de inteligencia artificial con 
     -   S3
     -   Lambda Functions
     -   API Gateway
+    -   Rekognition
 -   React
     -   @vladmandic/face-api
     -   react-speech-kit
