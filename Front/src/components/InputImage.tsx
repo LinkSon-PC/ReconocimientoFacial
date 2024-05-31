@@ -33,7 +33,7 @@ const InputImage: React.FC = () => {
         file: image,
       };
 
-      fetch(import.meta.env.API_GATEWAY, {
+      fetch('https://l6wzkgjlae.execute-api.us-east-1.amazonaws.com/FirstStage', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

@@ -56,7 +56,7 @@ const LivenessDetection: React.FC = () => {
   const sendImage = async (screenshot) => {
     const imageBase64 = screenshot?.split(',')[1];
     try {
-       await fetch(import.meta.env.API_GATEWAY + '/compare', {
+       await fetch('https://l6wzkgjlae.execute-api.us-east-1.amazonaws.com/FirstStage/compare', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
